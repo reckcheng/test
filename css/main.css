@@ -1,0 +1,245 @@
+nav
+{
+	background: rgba(0,0,0,0.1);
+	height: 50px;
+}
+
+header
+{
+	background: rgba(0,0,0,0.5);
+}
+
+#banner
+{
+	background:  url(../img/banner.jpg);
+	height: 720px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	margin-top:-20px;
+}
+
+.banner
+{
+	font-size: 0px;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+nav ul li, nav .logo
+{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+nav ul li a
+{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+nav ul li.logo
+{
+	float: left;
+	padding: 10px;
+}
+
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+
+}
+
+.banner .inner h1
+{
+	margin: 0;
+}
+
+button
+{
+	border: none;
+	background: #D0104C;
+	color: #fff;
+	padding: 10px 20px;
+	width: 200px;
+	height: 70px;
+	font-size: 22px;
+	letter-spacing: 8px;
+}
+
+#banner .inner .more
+{
+	margin-top: 180px;
+	color: #fff;
+}
+
+.txt1
+{
+	line-height: 50px;
+}
+
+.logo
+{	
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.logo a
+{
+	text-decoration: none;
+	color: #fff;
+	margin-left: 20px;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+.content1
+{
+	background: #232321;
+	text-align: center;
+	color: #fff;
+	padding: 200px 0;
+	line-height: 30px;
+}
+
+.wrapper
+{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.hr
+{
+	height: 2px;
+	margin: 0 auto;
+}
+
+.content1 .block
+{
+	display: inline-block;
+	max-width: 20%;
+	height: auto;
+	margin: 20px; 
+	padding: 10px;
+	border-radius: 50%;
+
+
+}
+
+p
+{
+	white-space: pre-line;
+}
+
+.content2
+{
+	background: #222220;
+	color: #E6EBE0;
+}
+
+.content2 .img1
+{
+	width: 45%;
+}
+
+.pic img
+{
+	width: 100%;
+}
+
+.content2 .img-txt
+{
+	width: 55%;
+}
+
+.pic > div
+{
+	float: left;
+}
+
+.pic:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.img-txt
+{
+	position: relative;
+	top: 50px;
+	left: 30px;
+}
+
+.img-txt h2
+{
+	margin-bottom: 30px;
+}
+
+.img-txt p
+{
+	font-size: 20px;
+	letter-spacing: 1px;
+	max-width: 95%;
+}
+
+.pic
+{
+	font-size: 0px;
+}
+
+.pic:nth-child(odd)
+{
+	background-color: rgba(255,255,255,0.05);
+}
+
+.contont
+{
+	text-align: content;
+}
+
+.heading
+{
+	padding: 300px 200px;
+	line-height: 30px;
+	background-color: rgb(25, 67, 97);
+	color: #fff;
+}
+
+.heading .txt3 h2,.heading .txt3
+{
+	text-align: center;
+}
+
+.heading .txt3 .explain
+{
+	text-align: center;
+	font-size: 30px;
+	color: red;
+	letter-spacing:5px;
+}
+
+.copy
+{
+	background: #6C7A89;
+	text-align: center;
+	height: 20px;
+	padding: 10px;
+}
